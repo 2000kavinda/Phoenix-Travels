@@ -1,0 +1,7 @@
+header{
+	background-image: url('pic.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+}
