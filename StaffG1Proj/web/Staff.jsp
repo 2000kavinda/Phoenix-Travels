@@ -21,7 +21,7 @@
                         
                         <li><a href="index.html">Flights</a></li>
                         <li><a href="#">Tickets</a></li>
-                        <li><a href="AddToStaff.jsp">Clients</a></li>
+                        <li><a href="home.jsp">Clients</a></li>
                         <li><a href="#">Log Out</a></li>
                     </ul>
                 </nav>
