@@ -4,7 +4,7 @@
 	font-family: Century Gothic;
 }
 body{
-	background-image: url(5.jpg);
+	background-image: url(100.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -50,4 +50,9 @@ nav ul li.active a{
 	background-color: #fff;
     color: #000;
 
+}
+
+form{
+     
+   padding-top:60px; 
 }
