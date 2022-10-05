@@ -48,7 +48,11 @@
             </br></br>
             <h4>Staff Grade</h4>
             <input type="text" name="StaffGrade" value="" />
+            </br></br>
+            <input type="submit" value="Add" name="B1" />
+            <input type="reset" value="Reset" name="B2" />
         </form></center>
+    
 
     </body>
 </html>
