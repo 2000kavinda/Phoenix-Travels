@@ -7,30 +7,27 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Staff Dashboard</title>
-        <link rel="stylesheet" type="text/css" href="style1.css">
-    </head>
-    <body>
+<head>
+    <title>Phoenix-Travels</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
     <header>
-        
-        <br><br>
-        <h1><font color="Black"><center>Phoenix Airlines</center></font></h1>
-        
-        <br><br>
+        <div class="main">
+            <div class="navbar">
+                <a href="AdminHome1.jsp"><img src="3.png" class="logo"></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Flights</a></li>
+                        <li><a href="#">Tickets</a></li>
+                        <li><a href="AddToStaff.jsp">Clients</a></li>
+                        <li><a href="#">Log Out</a></li>
+                    </ul>
+                </nav>
+            </div>
             
-    <center>
-    <button name="Flights" >
-        <font color="Green" size="4px">Flights </font>
-    </button> 
-    <button name="Tickets">
-        <font color="Green" size="4px">Tickets</font>
-    </button>
-    <button name="Client">
-        <font color="Green" size="4px">Client</font>
-    </button>
-    </center>
+        </div>
     </header>
-    </body>
+</body>
+
 </html>
