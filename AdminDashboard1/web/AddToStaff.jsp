@@ -50,7 +50,7 @@
             <input type="text" name="StaffGrade" value="" />
             </br></br>
             <input type="submit" value="Add" name="B1" />
-            <input type="reset" value="Clear" name="B2" />
+            <input type="reset" value="Reset" name="B2" />
         </form></center>
     
 
