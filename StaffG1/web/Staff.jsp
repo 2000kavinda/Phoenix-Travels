@@ -18,7 +18,7 @@
                 <a href="AdminHome1.jsp"><img src="3.png" class="logo"></a>
                 <nav>
                     <ul>
-                        <li class="active"><a href="#">Pending Approves</a></li>
+                        
                         <li><a href="index.html">Flights</a></li>
                         <li><a href="#">Tickets</a></li>
                         <li><a href="AddToStaff.jsp">Clients</a></li>
