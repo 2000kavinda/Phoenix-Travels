@@ -11,7 +11,7 @@ body{
 	box-sizing: border-box;
 }
 .navbar{
-        background-color: rgb(61, 134, 173);
+        
 	height: 12%;
 	display: flex;
 	align-items: center;
