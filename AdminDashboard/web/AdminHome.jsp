@@ -1,7 +1,6 @@
-
 <%-- 
-    Document   : AdminHome1
-    Created on : Oct 5, 2022, 1:12:05 PM
+    Document   : AdminHome
+    Created on : Oct 6, 2022, 1:00:22 AM
     Author     : Ridma Navod Local
 --%>
 
@@ -16,7 +15,7 @@
     <header>
         <div class="main">
             <div class="navbar">
-                <a href="AdminHome1.jsp"><img src="3.png" class="logo"></a>
+                <a href="AdminHome.jsp"><img src="3.png" class="logo"></a>
                 <nav>
                     <ul>
                         <li class="active"><a href="#">Pending Approves</a></li>
