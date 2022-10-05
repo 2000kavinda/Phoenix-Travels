@@ -1,7 +1,7 @@
 <%-- 
     Document   : Staff
     Created on : Oct 5, 2022, 5:40:47 PM
-    Author     : B E S T  COMPUTER
+    Author     : Lasith Perera
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -21,7 +21,7 @@
                         
                         <li><a href="index.html">Flights</a></li>
                         <li><a href="#">Tickets</a></li>
-                        <li><a href="AddToStaff.jsp">Clients</a></li>
+                        <li><a href="home.jsp">Clients</a></li>
                         <li><a href="#">Log Out</a></li>
                     </ul>
                 </nav>
