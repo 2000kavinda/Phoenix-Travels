@@ -41,6 +41,11 @@
                 <br><br>
                 <h4>Confirm Password</h4>
                 <input type="password" name="Confirm Password" value="" />
+                <br><br>
+                <h4>Staff Grade</h4>
+                <input type="text" name="StaffGradee" value="" />
+                <br><br>
+                <input type="submit" value="Add" name="B1" /><input type="reset" value="Reset" name="B2" />
             </form>  
             </center>
         </div>
