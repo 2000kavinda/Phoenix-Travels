@@ -16,7 +16,7 @@
     <header>
         <div class="main">
             <div class="navbar">
-                <img src="3.png" class="logo">
+                <a href="AdminHome1.jsp"><img src="3.png" class="logo"></a>
                 <nav>
                     <ul>
                         <li class="active"><a href="#">Pending Approves</a></li>
