@@ -19,7 +19,7 @@
                 <a href="AdminHome1.jsp"><img src="3.png" class="logo"></a>
                 <nav>
                     <ul>
-                        <li class="active"><a href="Flights.jsp">Staff</a></li>
+                        <li class="active"><a href="Flights.jsp">Staff G1</a></li>
                         <li><a href="Flights.jsp">Flights</a></li>
                         <li><a href="#">Tickets</a></li>
                         <li><a href="home.jsp">Clients</a></li>
@@ -34,7 +34,7 @@
             <div class="form-group">
                 <h2>Available Flights</h2>
         </div>
-            <br>
+            
             <div class="form-group">
                 <form method="get" action="flightdata">
                     <div class="form-group">
@@ -79,7 +79,7 @@
             }
         catch(Exception e)
         {
-            e.printStackTrace();//System.out.println(e);
+            e.printStackTrace();
         }
         %>
         </div>
@@ -91,7 +91,7 @@
     </div>
     
         <br><br>
-        <center><button name="Flights" >
+        <center><button name="Flights" action="AddFlights.jsp">
             <font color="Black" size="4px"><b>Add Flights</b> </font>
         </button> </center>
     </header>

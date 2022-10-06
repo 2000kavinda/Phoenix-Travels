@@ -27,7 +27,7 @@ public class flightdata extends HttpServlet{
             response.setContentType("text/html");
             String cityname= request.getParameter("combo");
  
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("con.mysql.jdbc.Driver");
             con=DriverManager.getConnection("jdbc:mysql://localhost/flights","root","");
 
             pst = con.prepareStatement("select Flight_ID,Departure,Destination,Departure_date,Departure_time,Arrival_date,Arrival_time,Price from flights where Departure=?");
