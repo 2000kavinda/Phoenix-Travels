@@ -21,7 +21,7 @@
                         <li class="active"><a href="#">Pending Approves</a></li>
                         <li><a href="index.html">Monitor Staff</a></li>
                         <li><a href="#">Monitor Clients</a></li>
-                        <li><a href="AddToStaff.jsp">Add to Staff</a></li>
+                        <li><a href="index.html">Add to Staff</a></li>
                         <li><a href="#">Log Out</a></li>
                     </ul>
                 </nav>
