@@ -19,27 +19,26 @@
                 <a href="AdminHome1.jsp"><img src="3.png" class="logo"></a>
                 <nav>
                     <ul>
-                        <li class="active"><a href="Flights.jsp">Staff</a></li>
+                        <li class="active"><a href="Flights.jsp">Staff G2</a></li>
                         <li><a href="Flights.jsp">Flights</a></li>
                         <li><a href="#">Tickets</a></li>
-                        <li><a href="home.jsp">Clients</a></li>
                         <li><a href="#">Log Out</a></li>
                     </ul>
                 </nav>
             </div>
-            
+           
         </div>
         <div class="container">
-            
+           
             <div class="form-group">
                 <h2>Available Flights</h2>
         </div>
-            <br>
+           
             <div class="form-group">
                 <form method="get" action="flightdata">
                     <div class="form-group">
             <h3>Select Flight</h3>
-        <% 
+        <%
             Connection con;
             PreparedStatement pat;
             ResultSet rs;
@@ -49,7 +48,7 @@
                 con=DriverManager.getConnection("jdbc:mysql://localhost/flights","root","");
                 pat=con.prepareStatement("select distinct Flight_ID from flights");
                 rs=pat.executeQuery();
-                
+               
                 if(rs.next())
                 {
                     out.println("<tr>");
@@ -66,7 +65,7 @@
                 out.println("</td></tr>");
                 out.println("</tr><td colspan=2 align=center><input type=submit value=Show></td></tr>");
                 }
-            
+           
             else
             {
                 out.println("<tr>");
@@ -79,25 +78,22 @@
             }
         catch(Exception e)
         {
-            e.printStackTrace();//System.out.println(e);
+            e.printStackTrace();
         }
         %>
         </div>
-        
+       
     </form>
-    
-    </div>
-    </div>
-    </div>
-    
-        <br><br>
-        <center><button name="Flights" >
-            <font color="Black" size="4px"><b>Add Flights</b> </font>
-        </button> </center>
-    </header>
-    
    
-    
+    </div>
+    </div>
+    </div>
+   
+        <br><br>
+    </header>
+   
+   
+   
 </body>
 
 </html>
