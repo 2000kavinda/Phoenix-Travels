@@ -19,7 +19,7 @@
                 <nav>
                     <ul>
                         
-                        <li><a href="index.html">Flights</a></li>
+                        <li><a href="Flights.jsp">Flights</a></li>
                         <li><a href="#">Tickets</a></li>
                         <li><a href="home.jsp">Clients</a></li>
                         <li><a href="#">Log Out</a></li>
