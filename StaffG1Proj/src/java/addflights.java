@@ -34,7 +34,7 @@ public class addflights extends HttpServlet {
             response.setContentType("text/html");
             PrintWriter out = response.getWriter();
             
-            Class.forName("con.mysql.jdbc.Driver");
+            Class.forName("com.mysql.jdbc.Driver");
             con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/flights", "root", "");
             String Flight_ID = request.getParameter("Flight_ID");
             String Departure = request.getParameter("Departure");
@@ -61,6 +61,8 @@ public class addflights extends HttpServlet {
             rs = pst1.executeQuery();
             
             rs.next();
+            
+            
             
            
             
