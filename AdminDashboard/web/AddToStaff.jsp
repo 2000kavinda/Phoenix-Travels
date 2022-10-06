@@ -25,8 +25,29 @@
                         <li><a href="#">Log Out</a></li>
                     </ul>
                 </nav>
-            </div>
-            
+            </div><center>
+            <form name="F1" action="message">
+                <h4>NIC</h4>
+                <input type="text" name="NIC" value="" />
+                <br><br>
+                <h4>Email</h4>
+                <input type="text" name="Email" value="" />
+                <br><br>
+                <h4>Username</h4>
+                <input type="text" name="Username" value="" />
+                <br><br>
+                <h4>Password</h4>
+                <input type="password" name="Password" value="" />
+                <br><br>
+                <h4>Confirm Password</h4>
+                <input type="password" name="Confirm Password" value="" />
+                <br><br>
+                <h4>Staff Grade</h4>
+                <input type="text" name="StaffGradee" value="" />
+                <br><br>
+                <input type="submit" value="Add" name="B1" /><input type="reset" value="Reset" name="B2" />
+            </form>  
+            </center>
         </div>
     </header>
 </body>
