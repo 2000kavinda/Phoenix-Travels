@@ -1,17 +1,28 @@
-<%-- 
-    Document   : Flights
-    Created on : Oct 6, 2022, 2:04:40 PM
-    Author     : B E S T  COMPUTER
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+<head>
+    <title>Phoenix-Travels</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="navbar">
+                <a href="AdminHome1.jsp"><img src="3.png" class="logo"></a>
+                <nav>
+                    <ul>
+                        
+                        <li><a href="Flights.jsp">Flights</a></li>
+                        <li><a href="#">Tickets</a></li>
+                        <li><a href="home.jsp">Clients</a></li>
+                        <li><a href="#">Log Out</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+    </header>
+</body>
+
 </html>
