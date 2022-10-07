@@ -42,14 +42,13 @@ and open the template in the editor.
         <div class="container">
             
             </br></br></br>
-                    <div class="form-group">
-                        <h2>Monitor Client Activities</h2>
-                    </div>
-               
-                <div class="form-group">
+                    <center><div class="form-group">
+                            <h1><b>Monitor Client Activities</b></h1>
+                    </div></center>
+              <center> 
             <form method="get" action="clientservlet">    
                       <div class="form-group">
-                          <h3>Select the Client</h3></br></br>
+                          <h3><b>Select the Client<b></h3></br></br>
        <%
             Connection con;
             PreparedStatement pst;
@@ -98,7 +97,7 @@ and open the template in the editor.
           
                     
           </form>                    
-                    
+                    </center>
               </div>      
               
      </div>
