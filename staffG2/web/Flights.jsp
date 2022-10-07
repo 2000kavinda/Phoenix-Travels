@@ -22,7 +22,7 @@
                         <li class="active"><a href="Flights.jsp">Staff G2</a></li>
                         <li><a href="Flights.jsp">Flights</a></li>
                         <li><a href="#">Tickets</a></li>
-                        <li><a href="#">Log Out</a></li>
+                        <li><a href="registration.jsp">Log Out</a></li>
                     </ul>
                 </nav>
             </div>
