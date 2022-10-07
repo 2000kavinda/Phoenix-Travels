@@ -48,10 +48,7 @@ public class addtickets extends HttpServlet {
             pst.setString(4, Price);
             pst.executeUpdate();
             
-            pst1 = (PreparedStatement) con.prepareStatement("select max(Ticket_ID) from tickets");
-            rs = pst1.executeQuery();
-            
-            rs.next();
+            out.println("Successfully added the Flight:"+Ticket_ID);
             
             
             
