@@ -15,7 +15,7 @@
     <header>
         <div class="main">
             <div class="navbar">
-                <a href="AdminHome1.jsp"><img src="3.png" class="logo"></a>
+                <a href="Flights.jsp"><img src="3.png" class="logo"></a>
                 <nav>
                     <ul>
                         
@@ -24,7 +24,7 @@
                         <li><a href="index.html">Add Flights</a>
                         <li><a href="tickets.html">Tickets</a></li>
                         <li><a href="home.jsp">Clients</a></li>
-                        <li><a href="#">Log Out</a></li>
+                        <li><a href="registration.jsp">Log Out</a></li>
                     </ul>
                 </nav>
             </div>
