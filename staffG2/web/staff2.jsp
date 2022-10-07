@@ -16,7 +16,7 @@
                         <li class="active"><a href="#">Staff G2</a></li>
                         <li><a href="#">Flights</a></li>
                         <li><a href="#">Tickets</a></li>
-                        <li><a href="#">Log Out</a></li>
+                        <li><a href="registration.jsp">Log Out</a></li>
                     </ul>
                 </nav>
             </div>
