@@ -16,13 +16,13 @@
     <header>
         <div class="main">
             <div class="navbar">
-                <a href="AdminHome1.jsp"><img src="3.png" class="logo"></a>
+                <a href="flight.jsp"><img src="3.png" class="logo"></a>
                 <nav>
                     <ul>
                         <li class="active"><a href="Flights.jsp">Staff G2</a></li>
                         <li><a href="Flights.jsp">Flights</a></li>
                         <li><a href="#">Tickets</a></li>
-                        <li><a href="#">Log Out</a></li>
+                        <li><a href="registration.jsp">Log Out</a></li>
                     </ul>
                 </nav>
             </div>
