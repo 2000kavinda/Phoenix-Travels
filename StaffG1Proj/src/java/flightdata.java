@@ -30,7 +30,7 @@ public class flightdata extends HttpServlet{
             Class.forName("com.mysql.jdbc.Driver");
             con=DriverManager.getConnection("jdbc:mysql://localhost/flights","root","");
 
-            pst = con.prepareStatement("select Flight_ID,Departure,Destination,Departure_date,Departure_time,Arrival_date,Arrival_time,Price from flights where Departure=?");
+            pst = con.prepareStatement("select Flight_ID,Departure,Destination,Departure_date,Departure_time,Arrival_date,Arrival_time,Price from flights where Flight_ID=?");
             pst.setString(1, cityname);
             rs = pst.executeQuery();
            

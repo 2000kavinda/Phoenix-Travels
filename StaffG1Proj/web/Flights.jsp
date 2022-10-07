@@ -16,7 +16,7 @@
     <header>
         <div class="main">
             <div class="navbar">
-                <a href="AdminHome1.jsp"><img src="3.png" class="logo"></a>
+                <a href="Flights.jsp"><img src="3.png" class="logo"></a>
                 <nav>
                     <ul>
                         <li class="active"><a href="Flights.jsp">Staff G1</a></li>
@@ -24,22 +24,23 @@
                         <li><a href="index.html">Add Flights</a>
                         <li><a href="tickets.html">Tickets</a></li>
                         <li><a href="home.jsp">Clients</a></li>
-                        <li><a href="#">Log Out</a></li>
+                        <li><a href="registration.jsp">Log Out</a></li>
                     </ul>
                 </nav>
             </div>
             
         </div>
         <div class="container">
-            
+            <br><br>
             <div class="form-group">
-                <h2>Available Flights</h2>
+                <center><h1><b>Available Flights</b></h1></center>
         </div>
             
             <div class="form-group">
-                <form method="get" action="flightdata">
+                <center><form method="get" action="flightdata">
                     <div class="form-group">
-            <h3>Select Flight</h3>
+                        <h3><b>Select Flight</b></h3>
+                        <br>
         <% 
             Connection con;
             PreparedStatement pat;
@@ -86,7 +87,7 @@
         </div>
         
     </form>
-    
+                </center>
     </div>
     </div>
     </div>
