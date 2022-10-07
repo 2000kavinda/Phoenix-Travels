@@ -9,7 +9,7 @@
     <header>
         <div class="main">
             <div class="navbar">
-                <a href="AdminHome1.jsp"><img src="3.png" class="logo"></a>
+                <a href="flight.jsp"><img src="3.png" class="logo"></a>
                 <nav>
                     <ul>
                        
