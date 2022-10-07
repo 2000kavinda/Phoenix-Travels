@@ -48,7 +48,7 @@ public class addtickets extends HttpServlet {
             pst.setString(4, Price);
             pst.executeUpdate();
             
-            out.println("Successfully added the Flight:"+Ticket_ID);
+            out.println("Successfully added the Ticket:"+Ticket_ID);
             
             
             
