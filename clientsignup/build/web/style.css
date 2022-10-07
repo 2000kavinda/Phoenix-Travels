@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+body{
+	background-image: url(2000.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+}
+.navbar{
+        
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 25px;
+    float: left;
+    width: 150px;
+    height: auto;
+}
+nav{    
+	flex: 1;
+	text-align: right;
+	margin-top: 50px;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	
+}
+nav ul li a{
+	font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 3px solid transparent;
+    transition: 0.6s ease;
+
+}
+nav ul li a:hover{
+	background-color: #fff;
+    color: #000;
+
+}
+nav ul li.active a{
+	background-color: #fff;
+    color: #000;
+
+}
+
+form{
+     
+   padding-top:60px; 
+}

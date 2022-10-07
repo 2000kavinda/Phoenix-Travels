@@ -1,51 +1,113 @@
-.btn {
-    border-radius: 40x;
-    border: 0;
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin: 1rem 0;
-    padding: 2rem 3rem;
-    text-transform: uppercase;
-    white-space: nowrap;
-    cursor: pointer;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'Montserrat', sans-serif;
 }
-.btn--primary {
-  background: dodgerblue;
-  color: white;
+body{
+ height: 100vh;
+ width: 100%;
+ background: linear-gradient(45deg ,white, #42A5F5);
 }
-.btn--primary:hover {
-    background: rgb(0, 128, 255);
-    }
-.btn--secondary{
-    background: darkturquoise;
-    color: white;
+.container{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+ width: 100%;
 }
-.btn--secondary:hover{
-    background: rgb(10, 240, 244);
+.login-box{
+ background: #FFF;
+ padding: 100px 100px 50px 100px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ width: 400px;
+ font-size: 14px;
+ border-radius: 5px;
 }
-.btn--accent{
-    background: orangered;
-    color: white;
+.user-icon{
+ background:#ee0754 ;
+ border-radius: 50%;
+ width: 100px;
+ height: 100px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: absolute;
+ top: -50px;
 }
-.btn--accent:hover{
-    background: rgb(217, 59, 2);
+.user-icon i{
+ font-size: 40px;
+ color: #FFF;
 }
-.btn--outline {
-    background: #fff;
-    color: black;
-    border: 2px solid black;
-    }
-.btn--outline:hover{
-    background: black;
-    color: #fff;
+.login{
+ width: 100%;
 }
-.btn--block{
-    width: 100%;
-    display: inline-block;
+.form-group{
+ margin-bottom: 20px;
+ display: fle;
+ flex-direction: column;
+ width: 100%;
+}
+input[type="text"].form-control, input[type="password"].form-control{
+ font-size: 16px;
+ outline: none;
+ width: calc(100% - 36px);
+ border: 2px solid #CCC;
+ padding: 16px;
+ border-radius: 2px;
+ transition: all 0.3s ease;
+}
+input[type="text"].form-control:hover, input[type="password"].form-control:hover{
+ border: 2px solid #F8BBD0;
+}
+input[type="text"].form-control:focus, input[type="password"].form-control:focus{
+ border: 2px solid #F06292;
+}
+input[type="text"].form-control:active, input[type="password"].form-control:active{
+ border: 2px solid #F06292;
+}
+label{
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+}
+label input[type="checkbox"]{
+ width: 20px;
+ height: 20px;
+ margin-right: 10px;
+ cursor: pointer;
+}
+button{
+ outline: none;
+ background: #ee0754;
+ color: #FFF;
+ padding: 16px;
+ display: block;
+ width: 100%;
+ border:none;
+ text-transform: uppercase;
+ font-size: 16px;
+ cursor: pointer;
+ transition: all 0.3s ease;
+}
+button:hover{
+ box-shadow: 5px 5px 5px #CCC;
+}
+a{
+ color: #42A5F5;
+}
+.serparater {
+ width: 100%;
+ border-top: 1px solid #F1F1F1;
+ border-bottom: 1px solid #F1F1F1;
+ padding: 10px 0;
+ text-align: center;
+ margin: 20px 0;
+ font-size: 12px;
 }
 
-@media screen and (min-width:1024px){
- .btn{
-    font-size: 1.5rem;
- }
-}
