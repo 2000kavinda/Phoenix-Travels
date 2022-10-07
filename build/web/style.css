@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+body{
+        background-image: url(2000.png);
+	height: auto;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+}
+header{
+	background-image: url(2000.png);
+	height: auto;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 25px;
+    float: left;
+    width: 150px;
+    height: auto;
+}
+nav{
+	flex: 1;
+	text-align: right;
+	margin-top: 50px;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	
+}
+nav ul li a{
+	font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 3px solid transparent;
+    transition: 0.6s ease;
+
+}
+nav ul li a:hover{
+	background-color: #fff;
+    color: #000;
+
+}
+nav ul li.active a{
+	background-color: #fff;
+    color: #000;
+
+}
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+	padding-left: 6%;
+	padding-top: 5%;
+}
+.col{
+	flex-basis: 50%;
+}
+h1{
+	color: #000;
+	font-size: 100px;
+}
+p{
+	color: #000;
+	font-size: 15px;
+	line-height: 15px;
+	font-style: italic;
+	font-weight: bold;
+}
+.card{
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 10px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+.card1{
+	background-image: url(12.jpg);
+}
+.card2{
+	background-image: url(70.jpg);
+}
+.card3{
+	background-image: url(72.jpg);
+}
+.card4{
+	background-image: url(Luxury-Hotels-in-Colombo.jpg);
+}
+.card5{
+	background-image: url(nycro-closeup-of-lobby-60259.jpg);
+}
+.card6{
+	background-image: url(EDT_Dubai_24_RGB_V1-scaled.jpg);
+}
+.card7{
+	background-image: url(sri-lanka-top-attractions-sigiriya.jpg);
+}
+.card8{
+	background-image: url(sri-lanka-top-attractions-yala-national-park.jpg);
+}
+.card9{
+	background-image: url(sri-lanka-top-attractions-minneriya-national-park.jpg);
+}
+.card:hover{
+	transform: translateY(-20px);
+}
+h4{
+	color: black;
+	text-shadow: 0 0 5px #999;
+}
+.card p{
+	text-shadow: 0 0 15px #000;
+	font-size: 8px;
+}
