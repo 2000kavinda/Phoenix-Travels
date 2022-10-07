@@ -57,10 +57,8 @@ public class addflights extends HttpServlet {
             pst.setString(8, Price);
             pst.executeUpdate();
             
-            pst1 = (PreparedStatement) con.prepareStatement("select max(Flight_ID) from flights");
-            rs = pst1.executeQuery();
             
-            rs.next();
+            out.println("Successfully added the Flight:"+Flight_ID);
             
             
             
